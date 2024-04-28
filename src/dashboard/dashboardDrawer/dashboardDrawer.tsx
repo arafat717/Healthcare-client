@@ -46,6 +46,9 @@ export default function DashboardDrawer({
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },
+          background: "#F4F7FE",
+          boxShadow: 0,
+          borderBottom: "1px solid lightgray",
         }}
       >
         <Toolbar>
@@ -58,9 +61,19 @@ export default function DashboardDrawer({
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Responsive drawer
-          </Typography>
+          <Box>
+            <Typography variant="body2" noWrap component="div" color="gray">
+              Hi, Arafat Jibon
+            </Typography>
+            <Typography
+              variant="body2"
+              noWrap
+              component="div"
+              color="primary.main"
+            >
+              Welcome To, Health Care
+            </Typography>
+          </Box>
         </Toolbar>
       </AppBar>
       <Box
