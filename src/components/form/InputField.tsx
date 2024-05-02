@@ -7,7 +7,7 @@ type TControllerProps = {
   label?: string;
   type?: string;
   size?: "small" | "medium";
-  fullWidth: boolean;
+  fullWidth?: boolean;
   sx?: SxProps;
   Placeholder?: string;
   required?: boolean;
